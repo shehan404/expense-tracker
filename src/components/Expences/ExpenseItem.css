@@ -13,11 +13,11 @@
 }
 
 .expense-item__description {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 36px;
-  width:100%;
+  width: 100%;
 }
 
 .expense-item__price {
