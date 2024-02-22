@@ -1,9 +1,12 @@
 :root {
   --main-background-color: #000000;
   --accent-color:#ef233c;
+  --accent-color-light:hsl(353, 100%, 81%);
   --card-background-color: #232425;
   --font-color:#ffffff;
   --faded-color:#545454;
   --faded-fill:#202020;
   --faded-font:#c5c5c5;
+  --max-width:900px;
+ 
 }

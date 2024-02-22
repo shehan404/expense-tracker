@@ -1,0 +1,7 @@
+.new-expense{
+  background-color: var(--accent-color-light);
+  max-width: var(--max-width);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
