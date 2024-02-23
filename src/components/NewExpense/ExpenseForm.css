@@ -9,6 +9,9 @@
 
   margin-top: 20px;
   margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
 }
 
 .new-expense__control {
@@ -24,6 +27,11 @@
   font-size: 16px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+.new-expense__control input::selection {
+  background-color: var(--accent-color);
+  color: var(--font-color);
 }
 
 input:focus {

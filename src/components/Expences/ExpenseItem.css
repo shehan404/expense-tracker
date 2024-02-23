@@ -6,11 +6,10 @@
   align-items: center;
   padding: 5px 16px;
   margin: 4px;
+ 
 }
 
-.expense-item div {
-  min-width: fit-content;
-}
+
 
 .expense-item__description {
   display: flex;

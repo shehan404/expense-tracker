@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   color: var(--font-color);
+  width:90px
 }
 
 .expense-date__month{

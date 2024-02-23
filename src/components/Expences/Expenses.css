@@ -1,7 +1,11 @@
 .expenses{
-  padding: 20px;
-  background-color: var(--main-background-color);
+  padding: 10px 20px 20px 20px;
+
+  /* background-color: var(--main-background-color); */
+  background-color: rgb(83, 83, 83);
   max-width: var(--max-width);
   box-shadow: 3px 3px 5px var(--faded-fill);
+  border-radius: 20px;
+  width: 730px;
 
 }

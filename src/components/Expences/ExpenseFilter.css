@@ -1,0 +1,33 @@
+.expense-filter{
+  margin-bottom: 30px;
+}
+
+.expense-filter-control{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.expense-filter-control label{
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 18px;
+
+  
+}
+
+.expense-filter-control select{
+  height: 40px;
+  width: 130px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+
+}
+
+.expense-filter-control select:focus{
+  outline: 2px solid var(--accent-color);
+}

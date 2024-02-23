@@ -1,7 +1,7 @@
 import "./ExpenseForm.css";
 import { useState } from "react";
 
-function ExpenseForm() {
+function ExpenseForm(props) {
   const [enteredTitle, setChangedTitle] = useState("");
   const [enteredAmount, setChangedAmount] = useState("");
   const [enteredDate, setChangedDate] = useState("");
@@ -27,7 +27,8 @@ function ExpenseForm() {
       date: new Date(enteredDate),
     };
 
-    console.log(expenseData);
+    // console.log(expenseData);
+    props.onSaveExpenseData(expenseData);
     setChangedTitle("");
     setChangedAmount("");
     setChangedDate("");
@@ -61,7 +62,7 @@ function ExpenseForm() {
           <input
             type="date"
             min="2019-01-01"
-            max="2022-12-31"
+            max="2024-12-31"
             value={enteredDate}
             onChange={dateChangeHandler}
           />
